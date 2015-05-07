@@ -275,7 +275,7 @@ Bundle "dyng/ctrlsf.vim"
 " q - Quit CtrlSF window.
 nmap \ <Plug>CtrlSFCwordPath<CR>
 " let g:ctrlsf_position = 'below'
-let g:ctrlsf_winsize = '45%'
+" let g:ctrlsf_winsize = '30%'
 let g:ctrlsf_auto_close = 0
 nnoremap <leader>so :CtrlSFOpen<CR>
 
