@@ -38,6 +38,9 @@ Plugin 'lua.vim'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-lua-ftplugin'
 
+" JSON高亮
+Plugin 'elzr/vim-json'
+
 " ################### 基础 ######################
 
 " 多语言语法检查
