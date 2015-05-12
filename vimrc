@@ -322,7 +322,7 @@ function! HideNumber()
 endfunc
 nnoremap <F2> :call HideNumber()<CR>
 nnoremap <F3> :set list! list?<CR>
-nnoremap <F4> :set wrap! wrap?<CR>
+nnoremap <F7> :set wrap! wrap?<CR>
               "set paste
 set pastetoggle=<F5>            "    when in insert mode, press <F5> to go to
                                 "    paste mode, where you can paste mass data
