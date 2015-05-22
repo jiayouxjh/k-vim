@@ -61,7 +61,7 @@ highlight SyntasticErrorSign guifg=white guibg=black
 " to see error location list
 let g:syntastic_always_populate_loc_list = 0
 let g:syntastic_auto_loc_list = 0
-let g:syntastic_loc_list_height = 5
+let g:syntastic_loc_list_height = 3
 
 function! ToggleErrors()
     let old_last_winnr = winnr('$')
@@ -530,11 +530,11 @@ let g:vim_markdown_folding_disabled=1
 " ###### HTML/JS/JQUERY/CSS #########
 
 " for javascript  注意: syntax这个插件要放前面
-" Bundle 'jelera/vim-javascript-syntax'
-" Bundle "pangloss/vim-javascript"
-" let g:html_indent_inctags = "html,body,head,tbody"
-" let g:html_indent_script1 = "inc"
-" let g:html_indent_style1 = "inc"
+Bundle 'jelera/vim-javascript-syntax'
+Bundle "pangloss/vim-javascript"
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
 
 
 " for javascript 自动补全,配合YCM,需要安装nodejs&npm  see
