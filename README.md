@@ -24,7 +24,7 @@ k-vim
 
     有一定基础的 vimer
 
-PS: 服务器端不带插件`k-vim`的简化版本(curl直接设置vimrc即可), 有需要可以直接安装[vim-for-server](https://github.com/wklken/vim-for-server)
+**PS**: 服务器端无插件`k-vim`简化版本, 有需要可以安装(curl直接设置vimrc即可)[vim-for-server](https://github.com/wklken/vim-for-server)
 
 ### k-vim使用说明
 
@@ -298,6 +298,7 @@ molokai主题
     kj        代替<Esc>，不用到角落去按esc了
 
     ,q     :q，退出vim
+    ,w     :w, 保存当前文件
 
     ctrl+n    相对/绝对行号切换
     <enter>   normal模式下回车选中当前项
@@ -898,6 +899,13 @@ src="https://raw.github.com/szw/vim-ctrlspace/master/gfx/screen_small.png" />
 
 详细 [更新日志](https://github.com/wklken/k-vim/blob/master/UPDATE_LOG.md)
 
+
+version 9.1 [待发布]
+
+    1. 增加 leader+w 保存文件
+
+    2. 解决在insert mode粘贴代码缩进错乱问题(以前需要:set paste . 即k-vim中F5快捷键)
+
 version: 9.0
 
     1. 新增依赖ag(the_silver_searcher)
@@ -940,6 +948,7 @@ version: 9.0
         7.2 V 缩小选中范围
 
     8. 新增主题tomorrow
+
 
 ### TODO
 
